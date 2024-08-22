@@ -3,9 +3,6 @@
   "version": "1.1.1",
   "description": "Enables use of formidable (node.js module for parsing form data, especially file uploads) in serverless environments.",
   "license": "MIT",
-  "dependencies": {
-    "formidable": "^1.2.2"
-  },
   "directories": {
     "lib": "./lib"
   },
@@ -31,7 +28,11 @@
   "bugs": {
     "url": "https://github.com/Amit-A/formidable-serverless/issues"
   },
+  "dependencies": {
+    "formidable": "^3.5.1"
+  },
   "devDependencies": {
-    "eslint": "^7.17.0"
+    "@types/formidable": "^3.4.5",
+    "eslint": "^9.9.0"
   }
 }
